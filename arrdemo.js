@@ -94,16 +94,46 @@ console.log("fruits",fruits)
 // }
 // let e1=new Employee()
 // callback
-function order(str,fun){
+// function order(str,fun){
 
-    console.log("your order is prepered ready to serve",str)
-    //call
-    fun()
- }
- function serveCallback(){
+//     console.log("your order is prepered ready to serve",str)
+//     //call
+//     fun()
+//  }
+//  function serveCallback(){
  
-    console.log("bye")
- }
- order("abhishek",serveCallback)
- order("rajeev",serveCallback)
+//     console.log("bye")
+//  }
+//  order("abhishek",serveCallback)
+//  order("rajeev",serveCallback)
  
+// //filter
+// phyMarks=[10,20,30,40,50,60]
+// arr=phyMarks.filter((data=>{
+// return data>30
+// }))
+// console.log("arr",arr)
+// function hello(){
+
+//     console.log("hello")
+// }
+// var hello=function(){
+//     console.log("hello")
+// }
+// var hello=()=>{
+//     console.log("hello")
+// }
+// // es6 fat arrow
+// hello()
+
+phyMarks=[10,20,30,40,50,60]
+arr=phyMarks.filter((marks)=>{
+    return marks>30 
+})
+console.log("arr",arr)
+// // function callBack(marks){
+// //   return marks>30
+// // }
+// var callBack=()=>{
+//     return marks>30 
+// }
