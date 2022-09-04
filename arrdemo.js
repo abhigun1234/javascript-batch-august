@@ -93,4 +93,17 @@ console.log("fruits",fruits)
 //     }
 // }
 // let e1=new Employee()
+// callback
+function order(str,fun){
 
+    console.log("your order is prepered ready to serve",str)
+    //call
+    fun()
+ }
+ function serveCallback(){
+ 
+    console.log("bye")
+ }
+ order("abhishek",serveCallback)
+ order("rajeev",serveCallback)
+ 
