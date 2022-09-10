@@ -26,7 +26,7 @@
 // {"id":10,"first_name":"Dodi","last_name":"Bartels","email":"dbartels9@de.vu","gender":"Female"}]
 
 // 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 // fruits.push("sweet lime")// push adding eliment end 
 // console.log("fruits",fruits)
@@ -36,8 +36,8 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // console.log("fruits",fruits)
 // fruits.shift()
 // console.log("fruits",fruits)
-fruits.splice( 0,3); 
-console.log("fruits",fruits)
+// fruits.splice( 0,3); 
+// console.log("fruits",fruits)
 // delete fruits; 
 // console.log("fruits",fruits)
 
@@ -126,14 +126,48 @@ console.log("fruits",fruits)
 // // es6 fat arrow
 // hello()
 
-phyMarks=[10,20,30,40,50,60]
-arr=phyMarks.filter((marks)=>{
-    return marks>30 
-})
-console.log("arr",arr)
+// phyMarks=[10,20,30,40,50,60]
+// arr=phyMarks.filter((marks)=>{
+//     return marks>30 
+// })
+// console.log("arr",arr)
 // // function callBack(marks){
 // //   return marks>30
 // // }
 // var callBack=()=>{
 //     return marks>30 
+// }
+var ages = [1, 1, 9, 21];
+
+function checkAdult(age) {
+  return age >= 18;
+}
+var data=ages.some(checkAdult);
+console.log('data',data)
+
+//callback
+// function hello(str,fun){
+//     console.log("hello",str)
+//     fun()
+// }
+// hello("abhi",callBack)
+// function callBack(){
+//     console.log("done")
+// }
+
+//clint req 1 
+//client req 2
+// var fruitsd = ["apple", "orange", "cherry"];
+// fruitsd.forEach(callBackFun)
+
+// function callBackFun(value,index,arr){
+// console.log("value",value)
+// console.log("index",index)
+// console.log("arr",arr)
+// }
+
+// fruits.forEach(myFunction);
+
+// function myFunction(item, index) {
+//   document.getElementById("demo").innerHTML += index + ":" + item + "<br>";
 // }

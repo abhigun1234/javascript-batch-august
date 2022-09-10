@@ -1,0 +1,20 @@
+{
+  "name": "java-script-august",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "ModuleA.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhigun1234/javascript-batch-august.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhigun1234/javascript-batch-august/issues"
+  },
+  "homepage": "https://github.com/abhigun1234/javascript-batch-august#readme"
+}
